@@ -108,7 +108,7 @@ void timsolonthu2(int n, int a[size][size])
     cout << "So lon thu 2 trong ma tran vuong la: " << max2;
     cout << endl;
 }
-void gttungchuso(int n, int a[size][size])
+void caud(int n, int a[size][size])
 {
     int i = 0;
     int b[size][size];
@@ -197,7 +197,7 @@ int main()
     output(n, a);
     sntcheophu(n, a);
     timsolonthu2(n, a);
-    gttungchuso(n, a);
+    caud(n, a);
     tongbienmatran(n, a);
     sapxepgiamdancotchan(n, a);
     return 0;
